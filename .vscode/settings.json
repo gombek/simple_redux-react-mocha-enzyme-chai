@@ -1,0 +1,91 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Columns at which to show vertical rulers
+    "editor.rulers": [80],
+
+    // Characters that will be used as word separators when doing word related navigations or operations
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+
+    // A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events
+    "editor.mouseWheelScrollSensitivity": 0.7,
+
+    // Controls if the editor should automatically format the line after typing
+    "editor.formatOnType": true,
+
+    // Insert snippets when their prefix matches. Works best when 'quickSuggestions' aren't enabled.
+    "editor.tabCompletion": true,
+
+    // Controls whether the editor should render indent guides
+    "editor.renderIndentGuides": true,
+
+    // The default end of line character.
+    "files.eol": "\n",
+
+    // When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": true,
+
+    // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange" (editor loses focus), "onWindowChange" (window loses focus). If set to "afterDelay", you can configure the delay in "files.autoSaveDelay".
+    "files.autoSave": "onFocusChange",
+
+// SCSS (Sass)
+
+    // Controls SCSS validation and problem severities.
+
+    // Enables or disables all validations
+    "scss.validate": true,
+
+    // When using a vendor-specific prefix make sure to also include all other vendor-specific properties
+    "scss.lint.compatibleVendorPrefixes": "ignore",
+
+    // When using a vendor-specific prefix also include the standard property
+    "scss.lint.vendorPrefix": "warning",
+
+    // Do not use duplicate style definitions
+    "scss.lint.duplicateProperties": "warning",
+
+    // Do not use empty rulesets
+    "scss.lint.emptyRules": "warning",
+
+    // Import statements do not load in parallel
+    "scss.lint.importStatement": "ignore",
+
+    // Do not use width or height when using padding or border
+    "scss.lint.boxModel": "ignore",
+
+    // The universal selector (*) is known to be slow
+    "scss.lint.universalSelector": "warning",
+
+    // No unit for zero needed
+    "scss.lint.zeroUnits": "warning",
+
+    // @font-face rule must define 'src' and 'font-family' properties
+    "scss.lint.fontFaceProperties": "warning",
+
+    // Hex colors must consist of three or six hex numbers
+    "scss.lint.hexColorLength": "error",
+
+    // Invalid number of parameters
+    "scss.lint.argumentsInColorFunction": "error",
+
+    // Unknown property.
+    "scss.lint.unknownProperties": "warning",
+
+    // IE hacks are only necessary when supporting IE7 and older
+    "scss.lint.ieHack": "ignore",
+
+    // Unknown vendor specific property.
+    "scss.lint.unknownVendorSpecificProperties": "ignore",
+
+    // Property is ignored due to the display. E.g. with 'display: inline', the width, height, margin-top, margin-bottom, and float properties have no effect
+    "scss.lint.propertyIgnoredDueToDisplay": "warning",
+
+    // Avoid using !important. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+    "scss.lint.important": "warning",
+
+    // Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+    "scss.lint.float": "warning",
+
+    // Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+    "scss.lint.idSelector": "ignore"
+
+}
