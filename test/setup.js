@@ -10,7 +10,7 @@ global.window = win;
 
 Object.keys(window).forEach((key) => {
     if (!(key in global)) {
-        global[key] = Window[key];
+        global[key] = window[key];
     }
 });
 
