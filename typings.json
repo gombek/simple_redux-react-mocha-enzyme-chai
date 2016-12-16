@@ -1,5 +1,7 @@
 {
   "globalDevDependencies": {
+    "chai": "registry:dt/chai#3.4.0+20160926213833",
+    "mocha": "registry:dt/mocha#2.2.5+20161119044246",
     "webpack-dev-server": "registry:dt/webpack-dev-server#1.12.1+20161122001659"
   }
 }

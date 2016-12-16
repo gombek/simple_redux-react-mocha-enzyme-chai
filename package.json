@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo \"Starting... http://localhost:8080/ \" && webpack-dev-server --progress --colors --hot --config ./webpack.config.js"
+    "start": "echo \"Starting... http://localhost:8080/\" && webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/setup.js 'src/**/*spec.js'",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "",
@@ -23,8 +24,11 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-2": "^6.18.0",
+    "chai": "^3.5.0",
     "eslint": "^3.12.2",
     "eslint-plugin-react": "^6.8.0",
+    "jsdom": "^9.8.3",
+    "mocha": "^3.2.0",
     "react-hot-loader": "^1.3.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
