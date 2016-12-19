@@ -4,9 +4,9 @@
 
 import ActionTypes from '../Constants/ActionTypes';
 
-export function set(value) {
+export function set(simpleData) {
     return {
         type: ActionTypes.SIMPLE_SET,
-        value
+        simpleData
     };
 }
