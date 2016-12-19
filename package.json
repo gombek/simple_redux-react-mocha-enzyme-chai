@@ -1,15 +1,15 @@
 {
-  "name": "redux1",
+  "name": "simple_project_redux-react-mocha-enzyme-chai",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple project - starting point",
   "main": "index.js",
   "scripts": {
     "start": "echo \"Starting... http://localhost:8080/\" && webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js \"src/**/*.spec.js\" ",
     "test:watch": "npm run test -- --watch"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["redux", "react", "mocha", "enzyme", "chai", "start", "init", "simple", "windows"],
+  "author": "gombek",
   "license": "ISC",
   "babel": {
     "presets": [
@@ -38,6 +38,7 @@
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
     "redux": "^3.6.0",
     "redux-logger": "^2.7.4"
   }
