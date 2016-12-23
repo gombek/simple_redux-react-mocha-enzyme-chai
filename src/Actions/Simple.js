@@ -10,3 +10,12 @@ export function set(simpleData) {
         simpleData
     };
 }
+
+export function clearIfOdd() {
+    return function (dispatch, getState) {
+        const { value } = getState().Simple;
+        if (value % 2 === 0) return;
+
+        dispatch(set({ value: 0 }));
+    };
+}

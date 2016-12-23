@@ -5,6 +5,7 @@
     "webpack-dev-server": "registry:dt/webpack-dev-server#1.12.1+20161122001659"
   },
   "globalDependencies": {
-    "redux": "registry:dt/redux#3.5.2+20160703092728"
+    "redux": "registry:dt/redux#3.5.2+20160703092728",
+    "redux-thunk": "registry:dt/redux-thunk#2.1.0+20160703120921"
   }
 }
